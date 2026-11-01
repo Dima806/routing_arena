@@ -1,0 +1,66 @@
+{
+  "seed": 42,
+  "customers": 20,
+  "vehicles": 4,
+  "capacity": 50,
+  "total_demand": 116,
+  "total_distance": 460.4382780747284,
+  "num_vehicles_used": 3,
+  "routes": [
+    {
+      "vehicle": 1,
+      "stops": [
+        0,
+        9,
+        1,
+        11,
+        15,
+        3,
+        6,
+        0
+      ],
+      "load": 42,
+      "capacity": 50,
+      "distance": 154.7616125665317
+    },
+    {
+      "vehicle": 2,
+      "stops": [
+        0,
+        20,
+        5,
+        2,
+        14,
+        19,
+        18,
+        4,
+        16,
+        0
+      ],
+      "load": 41,
+      "capacity": 50,
+      "distance": 177.97926669800734
+    },
+    {
+      "vehicle": 3,
+      "stops": [
+        0,
+        7,
+        17,
+        13,
+        8,
+        12,
+        10,
+        0
+      ],
+      "load": 33,
+      "capacity": 50,
+      "distance": 127.69739881018921
+    }
+  ],
+  "feasibility": {
+    "every_customer_once": true,
+    "capacity_respected": true,
+    "vehicles_used_within_fleet": true
+  }
+}

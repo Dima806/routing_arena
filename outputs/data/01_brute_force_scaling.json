@@ -1,0 +1,53 @@
+{
+  "seed": 42,
+  "rows": [
+    {
+      "stops": 4,
+      "seconds": 2.248800001325435e-05,
+      "optimal_length": 196.32849620562484,
+      "distinct_tours": 3
+    },
+    {
+      "stops": 5,
+      "seconds": 3.624800001489348e-05,
+      "optimal_length": 226.9424609129514,
+      "distinct_tours": 12
+    },
+    {
+      "stops": 6,
+      "seconds": 0.00015249499983838177,
+      "optimal_length": 227.1875918565263,
+      "distinct_tours": 60
+    },
+    {
+      "stops": 7,
+      "seconds": 0.0009969409998120682,
+      "optimal_length": 227.2034960165557,
+      "distinct_tours": 360
+    },
+    {
+      "stops": 8,
+      "seconds": 0.008637798000108887,
+      "optimal_length": 240.48571327254734,
+      "distinct_tours": 2520
+    },
+    {
+      "stops": 9,
+      "seconds": 0.07887494399983552,
+      "optimal_length": 264.4520939946879,
+      "distinct_tours": 20160
+    },
+    {
+      "stops": 10,
+      "seconds": 0.7331017000001339,
+      "optimal_length": 264.5280257519344,
+      "distinct_tours": 181440
+    },
+    {
+      "stops": 11,
+      "seconds": 8.042061986000135,
+      "optimal_length": 265.1466401599405,
+      "distinct_tours": 1814400
+    }
+  ]
+}

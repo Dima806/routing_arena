@@ -1,0 +1,54 @@
+{
+  "formula": "(n-1)!/2 distinct undirected tours",
+  "atoms_in_observable_universe": 1e+80,
+  "rows": [
+    {
+      "stops": 5,
+      "distinct_tours": 12,
+      "tours_scientific": "1.200e+01",
+      "times_atoms_in_universe": 1.2e-79
+    },
+    {
+      "stops": 10,
+      "distinct_tours": 181440,
+      "tours_scientific": "1.814e+05",
+      "times_atoms_in_universe": 1.8144e-75
+    },
+    {
+      "stops": 15,
+      "distinct_tours": 43589145600,
+      "tours_scientific": "4.359e+10",
+      "times_atoms_in_universe": 4.35891456e-70
+    },
+    {
+      "stops": 20,
+      "distinct_tours": 60822550204416000,
+      "tours_scientific": "6.082e+16",
+      "times_atoms_in_universe": 6.0822550204416e-64
+    },
+    {
+      "stops": 25,
+      "distinct_tours": 310224200866619719680000,
+      "tours_scientific": "3.102e+23",
+      "times_atoms_in_universe": 3.102242008666197e-57
+    },
+    {
+      "stops": 30,
+      "distinct_tours": 4420880996869850977271808000000,
+      "tours_scientific": "4.421e+30",
+      "times_atoms_in_universe": 4.420880996869851e-50
+    },
+    {
+      "stops": 40,
+      "distinct_tours": 10198941040598721679320140869951448678400000000,
+      "tours_scientific": "1.020e+46",
+      "times_atoms_in_universe": 1.0198941040598722e-34
+    },
+    {
+      "stops": 50,
+      "distinct_tours": 304140932017133780436126081660647688443776415689605120000000000,
+      "tours_scientific": "3.041e+62",
+      "times_atoms_in_universe": 3.0414093201713376e-18
+    }
+  ]
+}

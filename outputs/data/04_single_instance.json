@@ -1,0 +1,17 @@
+{
+  "stops": 60,
+  "seed": 42,
+  "reference": "ortools_5s_best_known",
+  "lengths": {
+    "nearest_neighbor": 702.6796213999189,
+    "nn_2opt": 603.8245314447823,
+    "nn_2opt_oropt": 597.903327185976,
+    "ortools_best_known": 585.8506393484055
+  },
+  "gap_percent": {
+    "nearest_neighbor": 19.9417691480977,
+    "nn_2opt": 3.0679990579796534,
+    "nn_2opt_oropt": 2.057297035806895,
+    "ortools_best_known": 0.0
+  }
+}

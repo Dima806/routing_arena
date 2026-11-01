@@ -1,0 +1,27 @@
+{
+  "seed": 42,
+  "customers": 20,
+  "capacity": 50,
+  "rows": [
+    {
+      "vehicles_available": 3,
+      "vehicles_used": 3,
+      "total_distance": 460.4382780747284
+    },
+    {
+      "vehicles_available": 4,
+      "vehicles_used": 3,
+      "total_distance": 460.4382780747284
+    },
+    {
+      "vehicles_available": 5,
+      "vehicles_used": 3,
+      "total_distance": 460.4382780747284
+    },
+    {
+      "vehicles_available": 6,
+      "vehicles_used": 3,
+      "total_distance": 460.4382780747284
+    }
+  ]
+}

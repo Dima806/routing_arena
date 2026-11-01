@@ -1,0 +1,35 @@
+{
+  "seed": 42,
+  "rows": [
+    {
+      "stops": 5,
+      "brute_force": 226.9424609129514,
+      "milp": 226.94246091295142,
+      "match": true
+    },
+    {
+      "stops": 6,
+      "brute_force": 227.1875918565263,
+      "milp": 227.1875918565263,
+      "match": true
+    },
+    {
+      "stops": 7,
+      "brute_force": 227.2034960165557,
+      "milp": 227.20349601655573,
+      "match": true
+    },
+    {
+      "stops": 8,
+      "brute_force": 240.48571327254734,
+      "milp": 240.48571327254734,
+      "match": true
+    },
+    {
+      "stops": 9,
+      "brute_force": 264.4520939946879,
+      "milp": 264.4520939946879,
+      "match": true
+    }
+  ]
+}

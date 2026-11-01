@@ -1,0 +1,22 @@
+# routing_arena configuration: instance sizes, budgets, geometry, and seeds.
+seed: 42
+
+# Ladder of TSP sizes: brute force / MILP give the true optimum on the small
+# end; heuristics run everywhere.
+tsp_sizes: [5, 8, 10, 12, 15, 20, 30, 50]
+brute_force_max_n: 10
+
+# Point layouts used across the notebooks.
+layouts: [uniform, clustered]
+coordinate_range: 100.0
+num_clusters: 4
+
+# Every OR-Tools / pushed-exact solve is capped at this many seconds.
+time_budget_seconds: 5.0
+
+vrp:
+  num_customers: 20
+  num_vehicles: 4
+  vehicle_capacity: 50
+  demand_low: 1
+  demand_high: 10

@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "when": "<= ~15-20 stops and you need a provable optimum",
+      "use": "exact MILP with subtour elimination (CBC)"
+    },
+    {
+      "when": "larger plain-TSP instances",
+      "use": "a construction plus 2-opt (nearest-neighbor + 2-opt, optionally or-opt)"
+    },
+    {
+      "when": "capacities, multiple vehicles, or time windows",
+      "use": "OR-Tools guided local search"
+    },
+    {
+      "when": "production, any size",
+      "use": "never nearest-neighbor alone -- it is a baseline, not a solution"
+    }
+  ],
+  "always": "know your gap-to-optimal by checking against exact on a small same-type instance",
+  "thesis": "give up on optimality on purpose; a 2%-from-optimal route in one second beats a proven-optimal route delivered never"
+}

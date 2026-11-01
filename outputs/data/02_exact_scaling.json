@@ -1,0 +1,48 @@
+{
+  "seed": 42,
+  "time_limit_seconds": 15.0,
+  "rows": [
+    {
+      "stops": 6,
+      "seconds": 0.025672734000181663,
+      "length": 227.1875918565263,
+      "hit_time_limit": false
+    },
+    {
+      "stops": 8,
+      "seconds": 0.029898429000240867,
+      "length": 240.48571327254734,
+      "hit_time_limit": false
+    },
+    {
+      "stops": 10,
+      "seconds": 0.10462239500020587,
+      "length": 264.5280257519344,
+      "hit_time_limit": false
+    },
+    {
+      "stops": 12,
+      "seconds": 0.14307214099972043,
+      "length": 298.0588916330939,
+      "hit_time_limit": false
+    },
+    {
+      "stops": 14,
+      "seconds": 0.1872096120000606,
+      "length": 312.3503977280934,
+      "hit_time_limit": false
+    },
+    {
+      "stops": 16,
+      "seconds": 0.2745815500002209,
+      "length": 331.47173652270357,
+      "hit_time_limit": false
+    },
+    {
+      "stops": 18,
+      "seconds": 1.1831369609999456,
+      "length": 333.3723893520966,
+      "hit_time_limit": false
+    }
+  ]
+}
